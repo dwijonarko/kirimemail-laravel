@@ -1,0 +1,24 @@
+{
+    "name": "dwijonarko/kirimemail-laravel",
+    "description": "Kirimemail transactional package for Laravel Framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dwijonarko\\Kirimemail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dwi Wijonarko",
+            "email": "dwi.wijonarko@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dwijonarko\\Kirimemail\\KirimemailServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
